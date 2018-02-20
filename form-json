@@ -1,4 +1,4 @@
-function toJSONString( form ) {
+function formJsonString( form ) {
   var obj = {};
   var elements = form.querySelectorAll( "input, select, textarea" );
   elements.forEach(element => {
